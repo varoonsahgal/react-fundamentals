@@ -132,6 +132,9 @@ function product(v, w, x, y, z) {
 }
 ```
 
+- in this case, reduce is just returning the product (result of multiplying) all the numbers in the `numbers` array.
+
+
 ***
 ## Rest Operator Exercise #2
 - Refactor the function below to use only the rest operator:
