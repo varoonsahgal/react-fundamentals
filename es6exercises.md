@@ -1,15 +1,23 @@
 # ES6 Exercises Instructions - Please Read:
 
-Here are the ES6 specific exercises that we expect you to complete as part of your pre-work for the React and Redux Fundamentals Course.  These exercises should take about 1 to 3 hours.  That time does not include the time we expect you to put in reading both the ES6 and React Study Guides.
+Here are the ES6 specific exercises that we like for you to complete as part of the React and Redux Fundamentals Course.  
 We also link to the appropriate sections in the [ES6 study guide](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide) to help you complete the exercises below.
 
-## Submitting your ES6 exercises answers
+## JSFiddle -  Saving and testing your ES6 exercises answers
 
-Please use [JSFiddle](https://jsfiddle.net) to submit each exercise - we recommend creating an account if you don't already have one.  You should also submit your answer to each exercise as a separate JSFiddle url. Please submit the JSFiddle links inside the issue that you create in our react-redux-fundamentals repository.  **So, you should have a total of 13 JSFiddle url’s as there are 13 exercises.**
+Please use [JSFiddle](https://jsfiddle.net) to complete each exercise - you actually do NOT need to create an account but you can if you want.
+
 
 ## Debugging with JSFiddle
 
-A quick note on debugging within JSFiddle: To see output from console.log() while still inside JSFiddle, go to the Resources section on the left-side panel and add the following link to a Javascript file that will allow you to `console.log`:  `https://rawgit.com/eu81273/jsfiddle-console/master/console.js`.
+You can test your JS code in the Fiddle by wrapping whatever output you want to see with a `console.log`.  Then you can run the JS code by clicking the run button in the top left of the page.
+
+
+## Saving code with JSFiddle
+
+Finally, when you are satisfied with your JS code for a given exercise, you can hit the save button at the top left.  This will generate a unique url that you can share with other people.  Notice that if you modify the code and hit save again it will generate another URL for you to use.
+
+
 
 ***
 
