@@ -39,7 +39,7 @@ Finally, when you are satisfied with your JS code for a given exercise, you can 
 ***
 
 ## Arrow Functions Exercise
-- Below we have a factorial function that clearly uses the 'function' keyword.  **Your challenge exercise is to refactor the factorial function below to use [ES6 fat arrow syntax](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---fat-arrow-functions).**  Keep in mind that there isn't anything wrong with using the `function` keyword, but it does look better with the fat arrow syntax instead.
+- Below we have a factorial function that clearly uses the 'function' keyword.  **Your challenge exercise is to refactor the factorial function below to use [ES6 fat arrow syntax]([https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---fat-arrow-functions](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---fat-arrow-functions)).**  Keep in mind that there isn't anything wrong with using the `function` keyword, but it does look better with the fat arrow syntax instead.
 - **Your second challenge exercise:** Once you refactor to use fat arrow syntax, take it a step further and use just one expression in your factorial function body, so you can remove the curly braces and the `return` keyword.  Hint: use the ternary operator for this.
 ### Fat arrow function rules
 - Keep in mind the rules for fat arrow functions:
@@ -71,7 +71,7 @@ function isDeveloper(bio) {
   return title === 'Developer' && department === 'GEC'
 }
 ```
-- **Your challenge exercise is to refactor the code used to reference the `title` and `department` properties.  You should use [***destructuring***](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---destructuring).** Try to get the `isDeveloper` function down to a single line using an arrow function.
+- **Your challenge exercise is to refactor the code used to reference the `title` and `department` properties.  You should use [***destructuring***]([https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---destructuring](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---destructuring)).** Try to get the `isDeveloper` function down to a single line using an arrow function.
 ***
 ## Destructuring and Map() Exercise 1b
 - Suppose we have an array of arrays representing someone's shopping cart on Walmart.com.  For example, our array of arrays would look something like this:
@@ -90,7 +90,7 @@ const cartAsObjects = [
   // ... and so on...
 ]
 ```
-- So, to summarize, take the array of arrays (reproduced below) and convert it into an array of ***objects*** stored in an array called `cartAsObjects`.  You must use both [***array destructuring***](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#destructuring-arrays-with-function-arguments) and the [***map***](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#the-map-helper-method) method.
+- So, to summarize, take the array of arrays (reproduced below) and convert it into an array of ***objects*** stored in an array called `cartAsObjects`.  You must use both [***array destructuring***](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#destructuring-objects-with-function-arguments) and the [***map***](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#the-map-helper-method) method.
 ```javascript
 const cart = [
   [ 'Hersheys Bar', '1.00', '504' ],
@@ -101,7 +101,7 @@ const cart = [
 - Remember that to destructure arrays we must use the square brackets (the `[]`) instead of the curly braces (the `{}`).
 ***
 ## ES6 Classes Exercise 1a
-- Create an [ES6 class](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---classes) called `Homosapien`.  **Your challenge exercise is to do some basic initialization for instances of the Homosapien class inside the constructor.**  Here is what you need to do specifically:
+- Create an [ES6 class](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---classes) called `Homosapien`.  **Your challenge exercise is to do some basic initialization for instances of the Homosapien class inside the constructor.**  Here is what you need to do specifically:
 
 ```
 - The constructor will accept a name and age.
