@@ -1,7 +1,7 @@
 # ES6 Exercises Instructions - Please Read:
 
 Here are the ES6 specific exercises that we like for you to complete as part of the React and Redux Fundamentals Course.  
-We also link to the appropriate sections in the [ES6 study guide](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide) to help you complete the exercises below.
+We also link to the appropriate sections in the [ES6 study guide](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md) to help you complete the exercises below.
 
 ## JSFiddle -  Saving and testing your ES6 exercises answers
 
@@ -39,7 +39,7 @@ Finally, when you are satisfied with your JS code for a given exercise, you can 
 ***
 
 ## Arrow Functions Exercise
-- Below we have a factorial function that clearly uses the 'function' keyword.  **Your challenge exercise is to refactor the factorial function below to use [ES6 fat arrow syntax]([https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---fat-arrow-functions](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---fat-arrow-functions)).**  Keep in mind that there isn't anything wrong with using the `function` keyword, but it does look better with the fat arrow syntax instead.
+- Below we have a factorial function that clearly uses the 'function' keyword.  **Your challenge exercise is to refactor the factorial function below to use [ES6 fat arrow syntax](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---fat-arrow-functions)).**  Keep in mind that there isn't anything wrong with using the `function` keyword, but it does look better with the fat arrow syntax instead.
 - **Your second challenge exercise:** Once you refactor to use fat arrow syntax, take it a step further and use just one expression in your factorial function body, so you can remove the curly braces and the `return` keyword.  Hint: use the ternary operator for this.
 ### Fat arrow function rules
 - Keep in mind the rules for fat arrow functions:
@@ -74,7 +74,7 @@ function isDeveloper(bio) {
 - **Your challenge exercise is to refactor the code used to reference the `title` and `department` properties.  You should use [***destructuring***](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---destructuring).** Try to get the `isDeveloper` function down to a single line using an arrow function.
 ***
 ## Destructuring and Map() Exercise 1b
-- Suppose we have an array of arrays representing someone's shopping cart on Walmart.com.  For example, our array of arrays would look something like this:
+- Suppose we have an array of arrays representing someone's shopping cart on an e-commerce site.  For example, our array of arrays would look something like this:
 ```javascript
 const cart = [
   [ 'Hersheys Bar', '1.00', '504' ],
@@ -115,7 +115,7 @@ const cart = [
 - The requirements for the `JavascriptDeveloper` class are:
 
 ```
-- The JavascriptDeveloper class should initialize instances with a `company` property of `'Walmart'`
+- The JavascriptDeveloper class should initialize instances with a `company` property of `'Salesforce'`
 - The class should override the `speak` method to `console.log` the string `"JavaScript is the most popular programming language!"`
 - Create an instance of the class, check its properties, and invoke the `speak` method.
 ```
