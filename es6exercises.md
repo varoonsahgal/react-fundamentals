@@ -71,7 +71,7 @@ function isDeveloper(bio) {
   return title === 'Developer' && department === 'GEC'
 }
 ```
-- **Your challenge exercise is to refactor the code used to reference the `title` and `department` properties.  You should use [***destructuring***]([https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---destructuring](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---destructuring)).** Try to get the `isDeveloper` function down to a single line using an arrow function.
+- **Your challenge exercise is to refactor the code used to reference the `title` and `department` properties.  You should use [***destructuring***](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---destructuring](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---destructuring).** Try to get the `isDeveloper` function down to a single line using an arrow function.
 ***
 ## Destructuring and Map() Exercise 1b
 - Suppose we have an array of arrays representing someone's shopping cart on Walmart.com.  For example, our array of arrays would look something like this:
