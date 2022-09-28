@@ -22,7 +22,8 @@ In this lab we will be building a simple todo list in React.  There is no Redux 
 
 Here's a mockup of what our final TodoList might look like:
 
-![screencap]({{ site.baseurl }}/images/TodoListMockup.png)
+
+<img width="331" alt="Screen Shot 2022-09-27 at 8 19 02 PM" src="https://user-images.githubusercontent.com/25653204/192659792-4798d279-2554-4c83-9636-f8c5aad94ed1.png">
 
 - **Required concepts before starting**
   - [ES6 Study Guide](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide)
