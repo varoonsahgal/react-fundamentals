@@ -56,7 +56,7 @@ Before we start creating components, you should make sure you understand the dis
 
 
 ## Milestone 1: Create React App
-For this lab we'll be using a tool built by Facebook to quickly bootstrap a React app. This will allow us to focus on just React. In later labs we'll introduce Redux, and then the Electrode platform.
+For this lab we'll be using a tool built by Facebook to quickly bootstrap a React app. This will allow us to focus on just React. In later labs we'll introduce Redux, Redux Toolkit, along with other more advanced topics as well.
 
 Let's go ahead and generate a new React app using the `create-react-app` tool provided by Facebook. To do so, open the terminal and navigate to a directory where you would like to create the new project - you can call it `rrf-lab1`. **Note:** `create-react-app` will generate a new directory for you with the same name as the app. 
 
