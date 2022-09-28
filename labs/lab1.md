@@ -63,6 +63,7 @@ Let's go ahead and generate a new React app using the `create-react-app` tool pr
 
 We can use npm's bundled `npx` tool to run binaries from your project's `node_modules`, from your local machine (globally installed) or from the npm central repository. We'll use it to pull the `create-react-app` binary from npm, which allows us to skip installing it globally and guarantees that each time you create a new React app you are using the latest version of the tool.
 
+
 Once in the appropriate parent directory run:
 
 ```bash
@@ -70,6 +71,13 @@ $ npx create-react-app rrf-todo
 ```
 
 > If you are getting certificate errors with Yarn, use npm instead with this command: `npx create-react-app rrf-todo --use-npm`
+
+
+If you are getting this error indicating that you don't have npx installed, that probably means you need to install node.js, which comes bundled with npm and npx. 
+<img width="877" alt="Screen Shot 2022-09-27 at 8 54 24 PM" src="https://user-images.githubusercontent.com/25653204/192663250-5b04ad73-350e-45ac-a049-5655f543a97c.png">
+
+
+To install node.js, you can first install nvm per the script [here](https://github.com/nvm-sh/nvm#installing-and-updating).  Once you install nvm then go ahead and run `nvm install 16` to install node version 16.  
 
 Once the install completes, change into the project directory and run `yarn start`, like so:
 
