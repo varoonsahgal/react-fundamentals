@@ -273,7 +273,7 @@ Taking a look at your Todo list application running at [http://localhost:3000](h
 
 The reason it doesn’t work as expected is because we left the `handleChange` event handler blank inside the `AddTodo` component. This is the first functionality for you to complete -- your goal for this milestone is simply to get the `input` field to simply accept some input.
 
-This input element is set up as a Controlled Component. You can read up on [Controlled Components](https://facebook.github.io/react/docs/forms.html) and forms in React to complete this exercise. **Hint:** in the provided component code notice the input field's value attribute is set equal to `this.state.todoText`. Also, make sure that you understand [State in React](https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide#react-state).
+This input element is set up as a Controlled Component. You can read up on [Controlled Components](https://facebook.github.io/react/docs/forms.html) and forms in React to complete this exercise. **Hint:** in the provided component code notice the input field's value attribute is set equal to `this.state.todoText`. Also, make sure that you understand [State in React](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md#react-state).
 
 
 ## Milestone 5: Implement handleSubmit
@@ -294,7 +294,7 @@ Once you get the `<input>` field actually accepting inputs, adding todos still d
 </details>
 <details markdown="1">
   <summary>After adding the todo, what should the input look like?</summary>
-  Clear out the `<input>` field's value after the user submits the new todo. Remember this is a controlled component. Refer to [React State](https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide#react-state) if you need a quick refresher on how to manage a component’s state.
+  Clear out the `<input>` field's value after the user submits the new todo. Remember this is a controlled component. Refer to [React State](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md#react-state) if you need a quick refresher on how to manage a component’s state.
 </details>
 
 
@@ -422,7 +422,7 @@ const DestructuredComponent = ({prop1, prop2}) => {
   return <h1>Hello, {prop1} {prop2}</h1>;
 };
 ```
-Now, your challenge is to implement [ES6 destructuring](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide#es6---destructuring) in the `Todo` component to destructure the props passed in.  That way, your code will be cleaner, and you won't have to access the properties from the `props` object (ie. `props.remove` or `props.todo`). Instead, you can directly reference `remove` and `todo`.
+Now, your challenge is to implement [ES6 destructuring](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md#es6---destructuring) in the `Todo` component to destructure the props passed in.  That way, your code will be cleaner, and you won't have to access the properties from the `props` object (ie. `props.remove` or `props.todo`). Instead, you can directly reference `remove` and `todo`.
 
 
 ## Milestone 9: Refactoring to use hooks
@@ -430,7 +430,7 @@ Hooks are a new addition in React as of version 16.8.  With hooks, we can now us
 
 Now, your challenge is to modify your `TodoApp` and `AddTodo` component to utilize the `useState` hook to manage your todo array instead of using `setState`.
 
-You can read our [guide on React hooks](https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide#hooked-on-state) as a reference to complete this exercise.  It contains some of the more salient points taken from the React docs.  Read our hints below as well to help you with this exercise.
+You can read our [guide on React hooks](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md#hooked-on-state) as a reference to complete this exercise.  It contains some of the more salient points taken from the React docs.  Read our hints below as well to help you with this exercise.
 
 Also note that you will not have to modify any other components - just `TodoApp` and `AddTodo`, and that's it!
 
