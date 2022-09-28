@@ -1,21 +1,3 @@
----
-title: Lab 2
-subtitle: React + Redux
-description: Refactor TodoList to use Redux for state management
-toc: false
-sidebar: auto
-layout: lab
-
-presentations:
-  - name: Intro to Redux
-    url: https://docs.google.com/presentation/d/1PGfIhjj6vzxuUVjpJ7fHpi5FoGSMMj4KMrfbYYT9Hcc/edit?usp=sharing
-
-resources:
-  - name: Redux Basics
-    url: http://redux.js.org/basics/
-
----
-
 In this lab, we will refactor our Todo List app from Lab 1. We have provided a reference implementation for you to use as a starting point should you wish. To use the reference implementation - create a new directory and run:
 
 ```bash
@@ -40,8 +22,8 @@ This app will have the same functionality as the previous lab; although there ar
 
 
 #### Required concepts before starting:
-* Javascript - [ES6](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide), [node](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/What-is-Node.js%3F), [npm](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/What-is-NPM%3F), [chrome debugger](https://www.youtube.com/watch?v=nOEw9iiopwI)
-* [React - components, classes, props, JSX](https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide)
+* Javascript - [ES6](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md),
+* [React - components, classes, props, JSX](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md)
 
 > If any of these concepts above need a refresher, please follow the links before getting started with the lab.
 
@@ -50,7 +32,7 @@ This app will have the same functionality as the previous lab; although there ar
 * **Redux** - store, reducers, mapStateToProps, connect. We will refer to [Redux - Quickstart]({{ site.baseurl }}/guides/redux-quickstart/).
 
 #### Why we are doing this lab:
-Maintaining state on the front-end is a requirement for any apps that purport to do something of interest. Redux is a powerful new paradigm for managing state in a performant, functional, and maintainable way. The learning curve can be steep because it has it own vocabulary and design patterns. React and Redux are now essential parts of the front-end toolbelt for tech companies around the world. [Here](https://github.com/facebook/react/wiki/sites-using-react) is a list of some companies using them. Notable ones being Facebook, Airbnb, Reddit, Netflix, and of course Walmart!
+Maintaining state on the front-end is a requirement for any apps that purport to do something of interest. Redux is a powerful new paradigm for managing state in a performant, functional, and maintainable way. The learning curve can be steep because it has it own vocabulary and design patterns. React and Redux are now essential parts of the front-end toolbelt for tech companies around the world. [Here](https://github.com/facebook/react/wiki/sites-using-react) is a list of some companies using them. Notable ones being Facebook, Airbnb, Reddit, Netflix, Walmart, etc..!
 
 
 ## Milestone 1: Create a Reducer
