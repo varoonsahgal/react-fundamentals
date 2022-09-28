@@ -86,7 +86,7 @@ Once the install of `create-react-app` completes, change into the project direct
 
 ```
 $ cd rrf-todo
-$ yarn start
+$ npm start
 ```
 
  It should automatically open up [localhost:3000](http://localhost:3000) for you, wherein you will see a small Demo component that's included as part of the app generator.  It will look like this:
@@ -97,13 +97,14 @@ $ yarn start
 ## Milestone 1.5: Clean Up Demo Files
 Open up the project in your Javascript editor - the code for that demo component is inside `src/App.js`. The entry point for the app is `src/index.js`. Open `index.js` and let’s take a look at the contents.
 
-On `line 7` you’ll see the invocation of` ReactDOM.render` with the original demo `App`. This is how a React App is bootstrapped. `ReactDOM.render` will mount the html element produced by `App` on the specified DOM node, the one with id `root`. You can confirm that node exists by opening up `public/index.html`. You’ll notice the only markup in the `<body>` is
+Inside the index.js code you’ll see the invocation of `render` with the original demo `App`. This is how a React App is bootstrapped. `root.render` will mount the html element produced by `App` on the specified DOM node, the one with id `root`. You can confirm that node exists by opening up `public/index.html`. You’ll notice the only markup in the `<body>` is:
+
 ```html
 <div id="root"></div>
 ```
 Don’t be surprised that `index.js` is not referenced inside the `public/index.html` file; create-react-app uses Webpack under the hood to bundle all of your app’s javascript together, by starting at `src/index.js` and following all the `import` statements recursively. Then Webpack injects a script tag into `index.html` for each bundle produced. We can prove this is the case by inspecting the html in the browser.
 
-If your dev server is not running, start it with `yarn start` then open the devtools in the browser tab that opens up. In the `Elements` tab, confirm that there are now script tags in the `<body>`.
+If your dev server is not running, start it with `npm start` then open the devtools in the browser tab that opens up. In the `Elements` tab, confirm that there are now script tags in the `<body>`.
 
 Now let’s clean up the demo code before beginning our app. First, stop your sever. Then, delete all the files in the `src` directory except `index.js`. Since this is the entry point for all of our javascript we’ll still need this. However, we’ll need to remove the references to all the files we deleted. 
 
