@@ -22,7 +22,7 @@ This app will have the same functionality as the previous lab; although there ar
 
 
 #### Required concepts before starting:
-* Javascript - [ES6](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md),
+* Javascript - [ES6](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md)
 * [React - components, classes, props, JSX](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md)
 
 > If any of these concepts above need a refresher, please follow the links before getting started with the lab.
