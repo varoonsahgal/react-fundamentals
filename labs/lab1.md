@@ -73,7 +73,7 @@ $ npx create-react-app rrf-todo
 > If you are getting certificate errors with Yarn, use npm instead with this command: `npx create-react-app rrf-todo --use-npm`
 
 
-> If you are getting this error indicating that you don't have npx installed, that probably means you need to install node.js, which comes bundled with npm and npx:
+If you are getting this error indicating that you don't have npx installed, that probably means you need to install node.js, which comes bundled with npm and npx:
 
 <img width="877" alt="Screen Shot 2022-09-27 at 8 54 24 PM" src="https://user-images.githubusercontent.com/25653204/192663250-5b04ad73-350e-45ac-a049-5655f543a97c.png">
 
@@ -82,7 +82,7 @@ To install node.js, you can first install nvm per the script [here](https://gith
 
 
 
-Once the install completes, change into the project directory and run `yarn start`, like so:
+Once the install of `create-react-app` completes, change into the project directory and run `yarn start`, like so:
 
 ```
 $ cd rrf-todo
