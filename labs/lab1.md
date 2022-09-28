@@ -104,9 +104,9 @@ Inside the index.js code you’ll see the invocation of `render` with the origin
 ```
 Don’t be surprised that `index.js` is not referenced inside the `public/index.html` file; create-react-app uses Webpack under the hood to bundle all of your app’s javascript together, by starting at `src/index.js` and following all the `import` statements recursively. Then Webpack injects a script tag into `index.html` for each bundle produced. 
 
-Now let’s clean up the demo code before beginning our app. First, stop your sever. Then, delete all the files in the `src` directory except `index.js`. Since this is the entry point for all of our javascript we’ll still need this. However, we’ll need to remove the references to all the files we deleted. 
+Now let’s clean up the demo code before beginning our app. First, stop your server. Then, delete all the files in the `src` directory except for `index.js`. Since this is the entry point for all of our javascript we’ll still need this. However, we’ll need to remove the references to all the files we deleted. 
 
-Inside your `index.js` file, remove the comments and code after line 7 since we won’t be using service workers, and remove all the `import` statements except `React` and `ReactDOM`.
+Inside your `index.js` file, remove the comments and code after line 13 since we won’t be using that, and remove all the `import` statements except `React` and `ReactDOM`.
 
 The last thing we’ll do is modify the `render` method to use a different component which we will create in the next milestone. Replace `<App />` with `<TodoApp />`, then add an import statement at the top of the file:
 ```jsx
