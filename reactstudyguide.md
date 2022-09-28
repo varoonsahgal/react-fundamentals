@@ -1,4 +1,4 @@
-Here we've compiled a handy guide/tutorial of various topics in the React JS library we think you should know before you start the React and Redux Fundamentals course.  Please be sure to read our [ES6 Study guide](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide) before reading this guide.  This is by no means a comprehensive guide to React, but something that's meant to help you hit the ground running in our course.  Also, please read each section carefully - especially topics that may be new to you.
+Here we've compiled a handy guide/tutorial of various topics in the React JS library we think you should know before you start the React and Redux Fundamentals course.  Please be sure to read our [ES6 Study guide](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md) before reading this guide.  This is by no means a comprehensive guide to React, but something that's meant to help you hit the ground running in our course.  Also, please read each section carefully - especially topics that may be new to you.
 
 For in depth coverage, consult the [official site](https://reactjs.org/docs/getting-started.html), where you can find Getting Started Guides, Concept Guides, and the API docs.
 
@@ -123,7 +123,7 @@ const element = <h1>Hello, {name}</h1>;
 - With React we can create what's called ***components*** and then re-use them just like built-in HTML elements.
 - For example, we could create a Product Carousel component that could be used on the Shopping Cart page to show products currently in a customer's cart, and then we can re-use that same Product Carousel component on the Product Search page.
 - This way we can design, build, and test a component once.  And, when we re-use a component, we don't have to worry about the underlying JavaScript and behavior used to build it.
-- Components can be shared within the company for others to use - the best example of this at Walmart is this: [Electrode showcase - Project New York](https://gecgithub01.walmart.com/pages/FEDS/ny-core/?grep=AboutItem)
+- Components can be shared within a company for others to use - a lot of companies have a React component explorer to share component code...
 
 ### What's In a Component, Anyway?
 
@@ -190,7 +190,6 @@ const TopComponent = () => (
 
 - When an element type starts with a lowercase letter, it refers to an element that's built into React - normal DOM tags like `div` or `span` -- which result in a string 'div' or 'span' being passed to React.createElement.
 - User-Defined components must be capitalized.  So, any React components you create must start with a capital letter.  The examples we used above -- `MyButton` and `App` are user-defined components.
-- The components you see here on the electrode explorer http://electrode-explorer.walmart.com/ are all user-defined components, with re-usable components such as product carousels, accordions, etc.
 
 ### React properties
 
