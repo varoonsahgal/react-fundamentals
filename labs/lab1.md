@@ -231,7 +231,7 @@ const TodoList = ({ todos, handleRemove }) => (
 export default TodoList;
 ```
 
-> Because `TodoList` will just ***display*** a list of Todos it receives as `props`, it won't need to maintain any state.  For that reason, we are using a functional component.  Notice the use of a ternary operator (`condition ? whenTrue : whenFalse`), this is a common React pattern for writing an `if/else` statement in JSX. Notice the use of `map`. This is a classic React pattern for rendering a collection. The `key` prop should be provided since React’s diffing algorithm can optimize rerendering with it. You may see tutorials use the array index as the `key`, which may be fast and simple, but can produce subtle bugs if the position of the elements in the array is not stable. Read more in [the docs](https://reactjs.org/docs/lists-and-keys.html#keys).
+> Because `TodoList` will just ***display*** a list of Todos it receives as `props`, it won't need to maintain any state.  Notice the use of a ternary operator (`condition ? whenTrue : whenFalse`), this is a common React pattern for writing an `if/else` statement in JSX. Notice the use of `map`. This is a classic React pattern for rendering a collection. The `key` prop should be provided since React’s diffing algorithm can optimize rerendering with it. You may see tutorials use the array index as the `key`, which may be fast and simple, but can produce subtle bugs if the position of the elements in the array is not stable. Read more in [the docs](https://reactjs.org/docs/lists-and-keys.html#keys).
 
 
 ### Create Todo component
