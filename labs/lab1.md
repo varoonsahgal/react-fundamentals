@@ -1,3 +1,4 @@
+## Lab 1
 In this lab we will be building a simple todo list in React.  There is no Redux piece in today's lab.  The lab is partially copy-paste to get the initial setup but also has some challenging exercises for you. The lab is also a great precursor to lab 2, and will give you a good working reference for how to approach the labs 2/3 , which will be more difficult. This lab also works as a good sanity check of your local dev setup.
 
 
@@ -7,8 +8,8 @@ Here's a mockup of what our final TodoList might look like:
 <img width="331" alt="Screen Shot 2022-09-27 at 8 19 02 PM" src="https://user-images.githubusercontent.com/25653204/192659792-4798d279-2554-4c83-9636-f8c5aad94ed1.png">
 
 - **Required concepts before starting**
-  - [ES6 Study Guide](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide)
-  - [React Study Guide](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/React-Study-Guide)
+  - [ES6 Study Guide](https://github.com/varoonsahgal/react-fundamentals/blob/main/es6studyguide.md)
+  - [React Study Guide](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md)
   - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - **What you will learn**
   - How to create React components
@@ -52,7 +53,7 @@ Functionally, what would we expect from our Todo list?  Here's a list of feature
 <br/>
 
 Before we start creating components, you should make sure you understand the distinction between
-[Presentational and Container components](  https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide#presentational-and-container-components)
+[Presentational and Container components](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md#presentational-and-container-components)
 
 
 ## Milestone 1: Create React App
