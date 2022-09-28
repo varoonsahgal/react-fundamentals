@@ -80,7 +80,7 @@ $ yarn start
 
  It should automatically open up [localhost:3000](http://localhost:3000) for you, wherein you will see a small Demo component that's included as part of the app generator.  It will look like this:
 
-![screencap]({{ site.baseurl }}/images/create-react-app.png)
+<img width="668" alt="Screen Shot 2022-09-27 at 8 38 24 PM" src="https://user-images.githubusercontent.com/25653204/192661761-6c762575-f544-47e2-874f-a9073e240aae.png">
 
 
 ## Milestone 1.5: Clean Up Demo Files
