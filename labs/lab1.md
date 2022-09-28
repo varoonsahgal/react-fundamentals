@@ -17,7 +17,7 @@ toc: false
 sidebar: auto
 layout: lab
 ---
-In this lab we will be building a simple todo list in React.  There is no Redux piece in today's lab.  The lab is partially copy-paste but also has some challenging exercises for you. The lab is also a great precursor to the day 2 lab, and will give you a good working reference for how to approach the days 2/3 labs and the assignment, which will be more difficult. This lab also works as a good sanity check of your local dev setup.
+In this lab we will be building a simple todo list in React.  There is no Redux piece in today's lab.  The lab is partially copy-paste but also has some challenging exercises for you. The lab is also a great precursor to lab 2, and will give you a good working reference for how to approach the labs 2/3 , which will be more difficult. This lab also works as a good sanity check of your local dev setup.
 
 
 Here's a mockup of what our final TodoList might look like:
