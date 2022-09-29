@@ -1,10 +1,8 @@
 In this lab, we will refactor our Todo List app from Lab 1. We have provided a reference implementation for you to use as a starting point should you wish. To use the reference implementation - create a new directory and run:
 
 ```bash
-$ git clone --single-branch --branch lab1-ref git@gecgithub01.walmart.com:developer-portal/rrf-todo.git
-```
-**Note:** if you don't have SSH access set up, replace the url with `https://gecgithub01.walmart.com/developer-portal/rrf-todo.git`.
-
+$ git clone --single-branch --branch lab1-ref https://github.com/varoonsahgal/rrf-todo
+``
 Then navigate into the cloned repo and install the packages:
 
 ```
