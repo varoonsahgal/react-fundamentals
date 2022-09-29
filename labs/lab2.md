@@ -32,7 +32,7 @@ This app will have the same functionality as the previous lab; although there ar
 * **Redux** - store, reducers, mapStateToProps, connect. We will refer to [Redux - Quickstart]({{ site.baseurl }}/guides/redux-quickstart/).
 
 #### Why we are doing this lab:
-Maintaining state on the front-end is a requirement for any apps that purport to do something of interest. Redux is a powerful new paradigm for managing state in a performant, functional, and maintainable way. The learning curve can be steep because it has it own vocabulary and design patterns. React and Redux are now essential parts of the front-end toolbelt for tech companies around the world. [Here](https://github.com/facebook/react/wiki/sites-using-react) is a list of some companies using them. Notable ones being Facebook, Airbnb, Reddit, Netflix, Walmart, etc..!
+Maintaining state on the front-end is a requirement for any apps that purport to do something of interest. Redux is a powerful new paradigm for managing state in a performant, functional, and maintainable way. The learning curve can be steep because it has it own vocabulary and design patterns. React and Redux are now essential parts of the front-end toolbelt for tech companies around the world. Notable ones being Facebook, Airbnb, Reddit, Netflix, Walmart, and of course Salesforce!
 
 
 ## Milestone 1: Create a Reducer
