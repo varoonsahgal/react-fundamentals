@@ -2,7 +2,8 @@ In this lab, we will refactor our Todo List app from Lab 1. We have provided a r
 
 ```bash
 $ git clone --single-branch --branch lab1-ref https://github.com/varoonsahgal/rrf-todo
-``
+```
+
 Then navigate into the cloned repo and install the packages:
 
 ```
