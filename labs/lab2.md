@@ -1,4 +1,4 @@
-In this lab, we will refactor our Todo List app from Lab 1. We have provided a reference implementation for you to use as a starting point should you wish. To use the reference implementation - create a new directory and run:
+In this lab, we will refactor our Todo List app from Lab 1. We have provided a reference implementation for lab 1 for you to use as a starting point should you wish. To use the reference implementation - create a new directory and run:
 
 ```bash
 $ git clone --single-branch --branch lab1-ref https://github.com/varoonsahgal/rrf-todo
