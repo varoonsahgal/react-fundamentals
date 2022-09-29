@@ -1,6 +1,3 @@
-Redux in Depth
-    url: https://docs.google.com/presentation/d/1GdHTYWFwrFSZaDRBwqZgQSg7up476LpNdLCbJtOTQBY/edit?usp=sharing
-
 
 In this lab, we will continue to expand on our Todo List app to be able to handle server interactions -- such as loading data from the server and saving it. Async network calls are a core part of an webapp, so let's figure out how to do them in React and Redux. If you are stuck at any point don’t hesitate to ask for assistance.
 
