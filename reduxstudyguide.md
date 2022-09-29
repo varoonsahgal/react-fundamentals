@@ -1,12 +1,4 @@
----
-title: Redux Quick Start Guide
-sidebar: auto
-permalink: /guides/redux-quickstart/
-toc: false
-type: page
----
 
-> This guide was built to help other Walmart engineers learn the ins and outs of Redux. This guide references the folder structure found in Electrode apps but the concepts are the same as in any Redux app.
 
 ## Redux - Create a Redux Reducer
 - Let's say we want to implement a simple shopping cart. How can we do it in Redux?
@@ -48,9 +40,7 @@ export default combineReducers({
 });
 ```
 
-Next the combined reducer is imported when creating our store in `src/client/app.jsx` (which should already be implemented in Electrode).
-
-> If you want to initialize state (ex. an item already added to the cart) in an Electrode app, you need to do so in `src/server/views/index-view.jsx`. This pattern is different than typical Redux because Electrode is optimized for server-side rendering.
+Next the combined reducer is imported when creating our store in `src/client/app.jsx` 
 
 ## Redux - mapStateToProps
 - Suppose we have a cart icon at the top of every page that shows us the *quantity*
