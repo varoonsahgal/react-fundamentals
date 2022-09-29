@@ -154,7 +154,7 @@ In order to update state, we need an action object that can be given to the disp
 Create a file `src/actions.js` and add the action creator:
 
 ```jsx
-const addTodo = text => ({ type: 'ADD_TODO', text })
+export const addTodo = text => ({ type: 'ADD_TODO', text })
 ```
 
 Remember that the Redux store does not allow direct access to the state. In order to update state you must `dispatch` an action describing how the state should change and have a reducer implemented to respond to that action by producing the new state. Actions are POJOs (plain old javascript objects) whose only requirement is a `type` key. The redux store provides the `dispatch` method, but we'll use the `react-redux` bindings to expose it to our components just like we did to expose state.
@@ -178,15 +178,22 @@ const mapDispatchToProps = (dispatch) => {
 
 This function is analogous to `mapStateToProps`: it will receive the store's dispatch method as an argument, and it is expected to return an object of key value pairs that will be passed to the component as props. Here our values are functions that invoke the `dispatch` method with an action.
 
+At the top of your AddTodo component (outside of any function) be sure to grab state from the useState hook like so:
+
+```jsx
+ const[todoText, setTodoText] = useState('');
+```
+
 Now let's use the dispatcher in the component. Refactor the `handleSubmit` method as follows:
 
 ```jsx
-handleSubmit() {
-  const text = this.state.todoText.trim()
-  if (text === '') return;
-  this.props.handleAdd(text);
-  this.setState({ todoText: '' });
-}
+ const handleSubmit = (e) => {
+    e.preventDefault()
+    let text = todoText.trim()
+    if (!text) return
+    addTodo(text)
+    setTodoText('')
+  }
 ```
 
 Our last step is to wire up the component with `connect`, which means a quick refactor of the export statement.
