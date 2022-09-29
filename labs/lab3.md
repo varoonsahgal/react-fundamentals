@@ -10,23 +10,13 @@ presentations:
   - name: Redux in Depth
     url: https://docs.google.com/presentation/d/1GdHTYWFwrFSZaDRBwqZgQSg7up476LpNdLCbJtOTQBY/edit?usp=sharing
 
-resources:
-  - name: Electrode Public Documentation
-    url: http://www.electrode.io/index.html
-  - name: Redux Basics
-    url: http://redux.js.org/basics/
-  - name: ES6 Study Guide
-    url: https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/ES6-Exercises
-  - name: React Study Guide
-    url: https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide
-
 ---
 
 In this lab, we will continue to expand on our Todo List app to be able to handle server interactions -- such as loading data from the server and saving it. Async network calls are a core part of an webapp, so let's figure out how to do them in React and Redux. If you are stuck at any point don’t hesitate to ask for assistance.
 
 #### Required concepts before starting:
-- **React** - passing props, using map, creating components. Refer to [React Study Guide](https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide)
-- **Redux** - store, reducers, connect, mapStateToProps, mapDispatchToProps. Refer to [Redux - Quickstart](http://code.walmart.com/react-redux-fundamentals/guides/redux-quickstart/).
+- **React** - passing props, using map, creating components. 
+- **Redux** - store, reducers, connect, mapStateToProps, mapDispatchToProps. 
 
 > If any of these concepts above need a refresher, please follow the links before getting started with the lab or throughout the lab as needed.
 
@@ -41,7 +31,7 @@ Nearly every webapp includes asynchronous server interactions to read and store 
 We will mostly be working from what we built in the previous lab, with a few extra additions. The project will now have a fake server to read and add todos to a database (stored locally in a JSON file). Load up the starter project:
 
 ```bash
-$ git clone --single-branch --branch lab2-ref git@gecgithub01.walmart.com:developer-portal/rrf-todo.git
+$ git clone --single-branch --branch lab2-ref https://github.com/varoonsahgal/rrf-todo.git
 ```
 
 Then navigate into the cloned repo and install the packages:
