@@ -8,6 +8,7 @@ Then navigate into the cloned repo and install the packages:
 
 ```
 $ cd rrf-todo
+$ npm install --global yarn
 $ yarn
 ```
 
