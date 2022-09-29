@@ -13,6 +13,10 @@ In the previous lab, all our initial todos were hard-coded into the app, and wou
 
 Nearly every webapp includes asynchronous server interactions to read and store data. They are accomplished in a special way within React and Redux, so we need to figure out how they work.
 
+Also, here's the presentation material for this portion of the class: https://docs.google.com/presentation/d/1GdHTYWFwrFSZaDRBwqZgQSg7up476LpNdLCbJtOTQBY/edit?usp=sharing
+
+
+
 ## Milestone 1: Get Starter Repo
 
 We will mostly be working from what we built in the previous lab, with a few extra additions. The project will now have a fake server to read and add todos to a database (stored locally in a JSON file). Load up the starter project:
