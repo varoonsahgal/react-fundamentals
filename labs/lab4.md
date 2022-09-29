@@ -1,24 +1,3 @@
----
-title: Lab 4
-subtitle: React + Redux Toolkit
-description: Refactor TodoList to use Redux + RTK (Redux ToolKit) for state management
-toc: false
-sidebar: auto
-layout: lab
-
-presentations:
-  - name: Intro to Redux
-    url: /react-redux-fundamentals/pdf/RRFDay2.pdf
-
-resources:
-  - name: Redux Basics
-    url: http://redux.js.org/basics/
-  - name: ES6 Study Guide
-    url: https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/ES6-Exercises
-  - name: React Study Guide
-    url: https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide
----
-
 In this lab, our goal is to get some experience with a popular toolkit for Redux development known as Redux Toolkit.  The goal of Redux Toolkit is to simplify Redux development by reducing the amount of boilerplate code required and to make it easier to configure a Redux store.
 
  We will follow the same steps starting out as we did in lab 2, where you will use the TodoList reference implementation from lab 1 for you to use as a starting point. 
