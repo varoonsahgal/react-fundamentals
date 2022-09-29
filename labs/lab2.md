@@ -1,22 +1,4 @@
-In this lab, we will refactor our Todo List app from Lab 1. We have provided a reference implementation for lab 1 for you to use as a starting point should you wish. To use the reference implementation - create a new directory and run:
-
-```bash
-$ git clone --single-branch --branch lab1-ref https://github.com/varoonsahgal/rrf-todo
-```
-
-Then navigate into the cloned repo and install the packages:
-
-```
-$ cd rrf-todo
-$ npm install --global yarn
-$ yarn
-```
-
-Once everything is installed, you can run the app with:
-
-```
-$ yarn start
-```
+In this lab, we will refactor our Todo List app from Lab 1.  Go ahead and start from your finished version of lab 1.
 
 This app will have the same functionality as the previous lab; although there are some stretch goals to give you a chance to flex your React and Redux muscles. Today's lab will focus on integrating Redux, so that our todos are no longer stored in component state, but rather in a centralized store. There are required milestones in this lab that should be feasible to get through in the time allotted as well as a bonus milestones you are encouraged to attempt in class if you finish early or later on your own. If you are stuck at any point don't hesitate to ask for assistance. This lab may be challenging as we will be introducing new vocabulary and patterns.
 
@@ -29,7 +11,7 @@ This app will have the same functionality as the previous lab; although there ar
 
 #### What you will learn:
 * **React** - passing props, using map, further understanding of components.
-* **Redux** - store, reducers, mapStateToProps, connect. We will refer to [Redux - Quickstart]({{ site.baseurl }}/guides/redux-quickstart/).
+* **Redux** - store, reducers, mapStateToProps, connect. We will refer to Redux QuickStart Guide
 
 #### Why we are doing this lab:
 Maintaining state on the front-end is a requirement for any apps that purport to do something of interest. Redux is a powerful new paradigm for managing state in a performant, functional, and maintainable way. The learning curve can be steep because it has it own vocabulary and design patterns. React and Redux are now essential parts of the front-end toolbelt for tech companies around the world. Notable ones being Facebook, Airbnb, Reddit, Netflix, Walmart, and of course Salesforce!
