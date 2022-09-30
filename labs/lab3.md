@@ -25,18 +25,29 @@ We will mostly be working from what we built in the previous lab, with a few ext
 $ git clone --single-branch --branch lab2-ref https://github.com/varoonsahgal/rrf-todo.git
 ```
 
-Then navigate into the cloned repo and install the packages:
+You will need to install yarn (another package manager like npm):
 
 ```
 $ cd rrf-todo
+$ npm install --global yarn
+```
+
+
+
+Then just running `yarn` will install the packages:
+
+```
 $ yarn
 ```
+You may see some warnings and even some gyp errors after installation but you should be fine to proceed regardless.
 
 Once everything is installed, you can run the app with:
 
 ```
 $ yarn start
 ```
+
+
 
 ### Explore the API
 
