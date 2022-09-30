@@ -5,11 +5,6 @@ In this lab, our goal is to get some experience with a popular toolkit for Redux
 This app will have the same functionality as the previous lab; although there are some stretch goals to give you a chance to flex your React and Redux muscles. Today's lab will focus on integrating Redux, so that our todos are no longer stored in component state, but rather in a centralized store. There are required milestones in this lab that should be feasible to get through in the time allotted as well as a bonus milestones you are encouraged to attempt in class if you finish early or later on your own. If you are stuck at any point don’t hesitate to ask for assistance. This lab may be challenging as we will be introducing new vocabulary and patterns.  
 
 
-#### Required concepts before starting:
-* Javascript - [ES6](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/ES6-Study-Guide), [node](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/What-is-Node.js%3F), [npm](https://gecgithub01.walmart.com/developer-portal/electrode-in-depth/wiki/What-is-NPM%3F), [chrome debugger](https://www.youtube.com/watch?v=nOEw9iiopwI)
-* [React - components, classes, props, JSX](https://gecgithub01.walmart.com/developer-portal/react-redux-fundamentals/wiki/React-Study-Guide)
-
-> If any of these concepts above need a refresher, please follow the links before getting started with the lab.
 
 #### What you will learn:
 * **React** - passing props, using map, further understanding of components.
@@ -23,9 +18,8 @@ To gain experience with a popular toolkit for Redux development known as Redux T
 In this lab, we will refactor our Todo List app from Lab 1 to use Redux instead of React state. We have provided a reference implementation for you to use as a starting point. To use the reference implementation:
 
 ```bash
-$ git clone --single-branch --branch lab1-ref git@gecgithub01.walmart.com:developer-portal/rrf-todo.git
+$ git clone --single-branch --branch lab1-ref https://github.com/varoonsahgal/rrf-todo.git
 ```
-**Note:** if you don’t have SSH access set up, replace the url with `https://gecgithub01.walmart.com/developer-portal/rrf-todo.git`.
 
 Let's start by installing both the redux toolkit and the react-redux bindings that will allow us to work with Redux from our React project.  Go ahead and run this command:
 
