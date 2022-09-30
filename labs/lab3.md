@@ -238,9 +238,10 @@ const TodoList = ({ todos, receiveTodos, loadTodos, removeTodo }) => {
 }
 ```
 
-If you saved this and ran your app, you'd create an infinite loop of fetching data.
+If you saved this and ran your app, you'd create an infinite loop of fetching data - which may look like this:
 
-![screencap]({{ site.baseurl }}/images/infinite-loop-useeffect.gif)
+<img width="750" alt="Screen Shot 2022-09-29 at 9 21 11 PM" src="https://user-images.githubusercontent.com/25653204/193169588-dc833768-0fa6-4ed2-ad5a-ddaae00acc96.png">
+
 
 🤔 STOP and think: What happened?!
 
