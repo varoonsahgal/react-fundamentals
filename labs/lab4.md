@@ -8,7 +8,7 @@ This app will have the same functionality as the previous lab; although there ar
 
 #### What you will learn:
 * **React** - passing props, using map, further understanding of components.
-* **Redux** - store, reducers, mapStateToProps, connect. We will refer to [Redux - Quickstart]({{ site.baseurl }}/guides/redux-quickstart/).
+* **Redux** - store, reducers, mapStateToProps, connect. 
 
 #### Why we are doing this lab:
 To gain experience with a popular toolkit for Redux development known as Redux Toolkit. 
