@@ -129,8 +129,7 @@ it('should work in succession', () => {
 
 ### Implement
 
-Now that you have a failing test, go make it pass! The answer isn't provided this time, feel free to reach out to your instructor if you get stuck.
-
+Now that you have a failing test, go make it pass by writing the actual reducer ! The answer isn't provided this time, but you should be able to do it based on the work you did in lab 2!
 ### Use
 
 Great! Let's make use of the `receiveTodos` action right away in `src/index.js`. Where we initially loaded `initialTodos` directly into state, let's use the action so we interact with our redux state using its interface.
