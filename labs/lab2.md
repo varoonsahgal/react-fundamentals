@@ -8,7 +8,7 @@ This app will have the same functionality as the previous lab; although there ar
 * [React - components, classes, props, JSX](https://github.com/varoonsahgal/react-fundamentals/blob/main/reactstudyguide.md)
 
 > If any of these concepts above need a refresher, please follow the links before getting started with the lab.
-
+sdfsd
 #### What you will learn:
 * **React** - passing props, using map, further understanding of components.
 * **Redux** - store, reducers, mapStateToProps, connect. We will refer to Redux QuickStart Guide
