@@ -22,14 +22,14 @@ Also, here's the presentation material for this portion of the class: https://do
 We will mostly be working from what we built in the previous lab, with a few extra additions. The project will now have a fake server to read and add todos to a database (stored locally in a JSON file). Load up the starter project:
 
 ```bash
-$ git clone --single-branch --branch lab2-ref https://github.com/varoonsahgal/rrf-todo.git
+git clone --single-branch --branch lab2-ref https://github.com/varoonsahgal/rrf-todo.git
 ```
 
 You will need to install yarn (another package manager like npm):
 
 ```
-$ cd rrf-todo
-$ npm install --global yarn
+cd rrf-todo
+npm install --global yarn
 ```
 
 
