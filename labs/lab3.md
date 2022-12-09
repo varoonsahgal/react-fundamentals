@@ -145,6 +145,8 @@ const store = createStore(todos)
 store.dispatch(receiveTodos(initialTodos))
 ```
 
+Be sure to also import the `receiveTodos` action creator inside your index.js file.
+
 > Pro tip: The more that you can stop assuming you know the shape of your redux state throughout your app, the better. We want to encapsulate our redux state using our actions as much as possible. 
 
 ## Milestone 3: Load Todos
