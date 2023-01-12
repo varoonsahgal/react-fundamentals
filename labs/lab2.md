@@ -191,7 +191,7 @@ Now let's use the dispatcher in the component. Refactor the `handleSubmit` metho
     e.preventDefault()
     let text = todoText.trim()
     if (!text) return
-    addTodo(text)
+    handleAdd(text)
     setTodoText('')
   }
 ```
